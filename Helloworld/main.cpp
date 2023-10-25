@@ -5,10 +5,12 @@
 #include <iostream>
 
 void Log(const char*);
+int Multiply(int, int);
 
 int main()
 {
     Log("Hello world!");
     std::cin.get();
+    std::cout << Multiply(2, 4);
     return 0;
 }

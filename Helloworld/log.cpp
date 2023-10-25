@@ -7,4 +7,4 @@
 void Log(const char* message)
 {
     std::cout << message << std::endl;
-}
+#include "EndBrace.h"
