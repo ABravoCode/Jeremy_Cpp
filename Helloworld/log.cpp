@@ -4,11 +4,7 @@
 
 #include <iostream>
 
-void Log(const char*);
-
-int main()
+void Log(const char* message)
 {
-    Log("Hello world!");
-    std::cin.get();
-    return 0;
+    std::cout << message << std::endl;
 }
