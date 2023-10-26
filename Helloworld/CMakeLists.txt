@@ -6,4 +6,5 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(Helloworld main.cpp
         log.cpp
         EndBrace.h
-        math.cpp)
+        math.cpp
+        log.h)

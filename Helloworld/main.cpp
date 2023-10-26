@@ -7,6 +7,7 @@
 void Log(const char*);
 int Multiply(int, int);
 
+/*
 int main()
 {
     Log("Hello world!");
@@ -14,3 +15,4 @@ int main()
     std::cout << Multiply(2, 4);
     return 0;
 }
+*/
